@@ -1,6 +1,9 @@
 const apiUrl = "https://jsonplaceholder.typicode.com/todos/1"
 
 import axios from "axios";
+import quotes from "inspirational-quotes";
+
+console.log(quotes.getQuote())
 
 // fetch(apiUrl)
 // .then(res => res.json())
